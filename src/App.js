@@ -1,17 +1,20 @@
 import React from 'react';
 import './App.css';
+import Footer from './Components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World App</h1>
-      <div className="data">
-        <h3>Name: Mohsin Ali Khan</h3>
-        <h3>Course: Web & Mobile Hybrid Application</h3>
-        <h3>Institute: JAWAN PAKISTAN</h3>
-      </div>
-    </div>
+// Components
+import Header from './Components/Header.jsx';
+import MainPage from './Components/MainPage.jsx';
+import SubSection from './Components/SubSection';
+
+const App = () => {
+  return (<>
+    <Header />
+    <MainPage />
+    <SubSection />
+    <Footer />
+  </>
   );
-}
+};
 
 export default App;

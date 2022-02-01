@@ -1,0 +1,9 @@
+.sub_sec {
+  background-color: lightblue;
+  padding: 50px;
+  width: 100%;
+}
+
+.sub_para h4 {
+  color: red;
+}
